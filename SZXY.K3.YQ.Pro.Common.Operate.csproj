@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39F5E07B-3EE3-441E-B43C-B8F679ED6382}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SZXY.K3.YQ.Pro.Common.Operate</RootNamespace>
+    <AssemblyName>SZXY.K3.YQ.Pro.Common.Operate</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>D:\Program Files %28x86%29\Kingdee\K3Cloud\WebSite\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Kingdee.BOS, Version=7.5.1507.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Kingdee\K3Cloud\WebSite\bin\Kingdee.BOS.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kingdee.BOS.App">
+      <HintPath>D:\Program Files (x86)\Kingdee\K3Cloud\WebSite\bin\Kingdee.BOS.App.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kingdee.BOS.App.Core">
+      <HintPath>D:\Program Files (x86)\Kingdee\K3Cloud\WebSite\bin\Kingdee.BOS.App.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kingdee.BOS.BusinessEntity">
+      <HintPath>D:\Program Files (x86)\Kingdee\K3Cloud\WebSite\bin\Kingdee.BOS.BusinessEntity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kingdee.BOS.Contracts">
+      <HintPath>D:\Program Files (x86)\Kingdee\K3Cloud\WebSite\bin\Kingdee.BOS.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kingdee.BOS.Core">
+      <HintPath>D:\Program Files (x86)\Kingdee\K3Cloud\WebSite\bin\Kingdee.BOS.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kingdee.BOS.DataEntity">
+      <HintPath>D:\Program Files (x86)\Kingdee\K3Cloud\WebSite\bin\Kingdee.BOS.DataEntity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kingdee.BOS.Log">
+      <HintPath>D:\Program Files (x86)\Kingdee\K3Cloud\WebSite\bin\Kingdee.BOS.Log.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kingdee.BOS.Model">
+      <HintPath>D:\Program Files (x86)\Kingdee\K3Cloud\WebSite\bin\Kingdee.BOS.Model.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kingdee.BOS.ServiceHelper, Version=7.5.1507.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Kingdee\K3Cloud\WebSite\bin\Kingdee.BOS.ServiceHelper.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kingdee.K3.Core">
+      <HintPath>D:\Program Files (x86)\Kingdee\K3Cloud\WebSite\bin\Kingdee.K3.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kingdee.K3.FIN.App.Core, Version=7.5.1507.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Kingdee\K3Cloud\WebSite\bin\Kingdee.K3.FIN.App.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Kingdee\K3Cloud\WebSite\bin\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AScanReturnInfo.cs" />
+    <Compile Include="BarcodeScanerCreate.cs" />
+    <Compile Include="BZDAuditOpt.cs" />
+    <Compile Include="BZDDelOpt.cs" />
+    <Compile Include="BZDUnAuditOpt.cs" />
+    <Compile Include="CPCHBGDPrint.cs" />
+    <Compile Include="CustBack.cs" />
+    <Compile Include="DayPlanDateControl.cs" />
+    <Compile Include="DeliveryBillPlug.cs" />
+    <Compile Include="FCDAuditOpt.cs" />
+    <Compile Include="FCDUnAuditOpt.cs" />
+    <Compile Include="FCEntryData.cs" />
+    <Compile Include="FQDAuditOpt.cs" />
+    <Compile Include="FQDUnAuditOpt.cs" />
+    <Compile Include="LSAuditOpt.cs" />
+    <Compile Include="LSUnAuditOpt.cs" />
+    <Compile Include="NKWK.cs" />
+    <Compile Include="OrderService.cs" />
+    <Compile Include="PackCustInfoAuditOpt.cs" />
+    <Compile Include="PackCustInfoUnAuditOpt.cs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReCheck.cs" />
+    <Compile Include="ReCheckAudit.cs" />
+    <Compile Include="SalOutStockPrint.cs" />
+    <Compile Include="ScanReturnInfo.cs" />
+    <Compile Include="SFDAuditOpt.cs" />
+    <Compile Include="SFDUnAuditOpt.cs" />
+    <Compile Include="TFDAuditOpt.cs" />
+    <Compile Include="TFDUnAuditOpt.cs" />
+    <Compile Include="TFJYDAuditOpt.cs" />
+    <Compile Include="UnAuditDelLinkBill.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="WaitRecheck.cs" />
+    <Compile Include="WLKDPrint.cs" />
+    <Compile Include="XYBipartition.cs" />
+    <Compile Include="XYBZToMoPick.cs" />
+    <Compile Include="XYCast.cs" />
+    <Compile Include="XYCastConvert.cs" />
+    <Compile Include="XYCastDynGel.cs" />
+    <Compile Include="XYCoated.cs" />
+    <Compile Include="XYComposite.cs" />
+    <Compile Include="XYComPositeDayPlanFilter.cs" />
+    <Compile Include="XYDFDelOpt.cs" />
+    <Compile Include="XYFCToMoPick.cs" />
+    <Compile Include="XYFHAuditOpt.cs" />
+    <Compile Include="XYFHDelte.cs" />
+    <Compile Include="XYFHToInStockConvert.cs" />
+    <Compile Include="XYFHToMoPack.cs" />
+    <Compile Include="XYFHUAuditOpt.cs" />
+    <Compile Include="XYFQToMoPick.cs" />
+    <Compile Include="XYJLToMoPick.cs" />
+    <Compile Include="XYLayered.cs" />
+    <Compile Include="XYLSDeleteOpt.cs" />
+    <Compile Include="XYLsToMoPick.cs" />
+    <Compile Include="XYLYAuditFlowOpt.cs" />
+    <Compile Include="XYLYToMoPick.cs" />
+    <Compile Include="XYLYUnAuditOpt.cs" />
+    <Compile Include="XYPack.cs" />
+    <Compile Include="XYPaste.cs" />
+    <Compile Include="XYLYToInStockConvert.cs" />
+    <Compile Include="XYLYInStockDeleteOpt.cs" />
+    <Compile Include="XYLYInStockSaveOpt.cs" />
+    <Compile Include="XYLYInStockUnAuditOpt.cs" />
+    <Compile Include="XYPickMtrl.cs" />
+    <Compile Include="XYPrintReCordReport.cs" />
+    <Compile Include="XYSFToMoPick.cs" />
+    <Compile Include="XYStraddleCut.cs" />
+    <Compile Include="XYStretch.cs" />
+    <Compile Include="XYWet.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
