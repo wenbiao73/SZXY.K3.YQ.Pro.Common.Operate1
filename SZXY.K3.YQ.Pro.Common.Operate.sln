@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SZXY.K3.YQ.Pro.Common.Operate", "SZXY.K3.YQ.Pro.Common.Operate\SZXY.K3.YQ.Pro.Common.Operate.csproj", "{39F5E07B-3EE3-441E-B43C-B8F679ED6382}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39F5E07B-3EE3-441E-B43C-B8F679ED6382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F5E07B-3EE3-441E-B43C-B8F679ED6382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F5E07B-3EE3-441E-B43C-B8F679ED6382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F5E07B-3EE3-441E-B43C-B8F679ED6382}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27BC6D6C-2593-468C-8962-B95AA691ACC1}
+	EndGlobalSection
+EndGlobal
